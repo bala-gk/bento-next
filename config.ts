@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Bala Krishnan',
   openInNewTab: true,
   title: 'Bento',
 
@@ -22,19 +22,19 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'google',
+    source: 'local',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'JetBrainsMono Nerd Font',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   // Set to "" to disable.
-  backgroundImage: '',
+  backgroundImage: 'Firefox Wallpaper',
   themes: [
     // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     'arc',
@@ -51,7 +51,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -71,8 +71,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '48.7667',
+  defaultLongitude: '11.4226',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -105,17 +105,17 @@ export const config: Config = {
       {
         name: 'Github', // set the name of the card
         icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        url: 'https://github.com/bala-gk/', // provide a link to the page.
       },
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.google.com/mail/u/0/#inbox',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Amazon',
+        icon: 'fab-amazon',
+        url: 'https://amazon.de',
       },
       {
         name: 'Calendar',
@@ -128,9 +128,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Music',
+        icon: 'fab-spotify',
+        url: 'https://open.spotify.com',
       },
     ],
     // Second buttons group
@@ -203,16 +203,16 @@ export const config: Config = {
             url: 'https://www.linkedin.com',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Draw.io',
+            url: 'https://www.draw.io',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'Thomann Music',
+            url: 'https://www.thomann.de',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Thalia Books',
+            url: 'https://www.thalia.de',
           },
         ],
       },
