@@ -71,8 +71,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '48.7667',
-  defaultLongitude: '11.4226',
+  defaultLatitude: '48.765',
+  defaultLongitude: '11.423',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
@@ -118,9 +118,9 @@ export const config: Config = {
         url: 'https://amazon.de',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Youtube',
+        icon: 'youtube',
+        url: 'https://youtube.com',
       },
       {
         name: 'Reddit',
