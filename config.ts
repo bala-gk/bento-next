@@ -34,7 +34,7 @@ export const config: Config = {
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
   // Set to "" to disable.
-  backgroundImage: 'Firefox Wallpaper',
+  backgroundImage: 'FirefoxWallpaper',
   themes: [
     // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     'arc',
