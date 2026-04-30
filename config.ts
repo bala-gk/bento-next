@@ -211,8 +211,8 @@ export const config: Config = {
             url: 'https://www.thomann.de',
           },
           {
-            name: 'Thalia Books',
-            url: 'https://www.thalia.de',
+            name: 'Lichess',
+            url: 'https://www.lichess.org',
           },
         ],
       },
